@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.section_title {
+    font-size: 35px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section_description {
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* about section */
+#about {
+    background-color: rgba(0, 187, 121);
+    padding: 50px 0px 50px 0px;
+}
+
+.our_name {
+    font-weight: bolder;
+    font-size: 80px;
+    margin-top: 7%;
+}
+
+@media all and (max-width:550px) {
+    .our_name {
+        margin-top: 17%;
+        font-size: 40px;
+    }
+}
+
+/* crew section */
+#crew {
+    width: 100%;
+    padding: 90px 0px 50px 0px;
+}
+
+.crew_data_wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.crew_data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.crew_data > img {
+    border-radius: 1000px
+}
+
+.crew_name {
+    font-size: 23px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.crew_description {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.crew_description3 {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.crew_role {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 10px;
+}
+
+
+
+/* service section */
+
+#service {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 50px 0px;
+    background-color: #0ccd6383;
+}
+
+.service_list_wrap {
+    margin: 40px 0px 40px 0px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service_data {
+    background-color: #fff;
+    height: 350px;
+    width: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+}
+
+.service_data:hover {
+    cursor: pointer;
+}
+
+.service_data > img {
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 150px;
+}
+
+.service_name {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 10px 15px;
+}
+
+.service_description {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px 0px 20px 15px;
+}
+/* about section */
+#about {
+    background-color: rgba(0, 187, 121);
+    padding: 50px 0px 50px 0px;
+}
+
+.our_name {
+    font-weight: bolder;
+    font-size: 80px;
+    color: linear-gradient(70deg, #51E719, #19E7BB);
+    margin-top: 7%;
+}
